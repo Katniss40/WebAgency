@@ -1,4 +1,6 @@
 /*Mise en page de la page 1*/
+
+
 /* mise en page du logo*/
 .logo{
   display: flex;
@@ -23,7 +25,7 @@
   text-decoration: none;
   color: #222020;
   padding: 20px;
-  font-family: cursive;
+  font-family: Roboto;
 }
 
 /* mise en page de l'image*/
@@ -41,7 +43,7 @@
   z-index: 6;
   color: white;
   font-size: 1.2em;
-  font-family: cursive;
+  font-family: Roboto;
 }
 
 span{
@@ -108,35 +110,34 @@ span{
 
 /*Mise en page de la page 2*/
 
-#page2 {
+/*#services {
 display: inline;
-}
+}*/
 
 h2 {
   position: absolute;
-  
-  font-family: cursive;
-  
+    font-family: Roboto;
+    font-size: 2em;
+    color: #70abcf;
+   
+}
 
-hr {
+  hr {
   position: absolute;
   left: 600px;
   right: 600px;
-  
-  
-  
 }
-/*.line { 
+
+.line { 
   display: flex;
   position: relative;
   top: 100px;
-  left: 100px;*/
-
+  left: 100px;
 }
 
 /* mise en page de la page 3*/
 
-#page3 {
+#projets {
   display: flex;
   position: relative;
   top: 100px;
@@ -146,7 +147,7 @@ hr {
 
 /* mise en page de la page 4*/
 
-#page4 {
+#contact {
   display: flex;
   position: relative;
   top: 100px;
