@@ -163,34 +163,26 @@ span{
     margin-block-start: 0.83em;
      
   }
-  
-   /* hr {
-   
-    left: 600px;
-    right: 600px;
-  }*/
-
 
   .traitbleu {
   width: 20%;
     margin: auto;
     margin-bottom: 5vh;
     height: 2px;
-    background:  #70abcf;
+    background: linear-gradient(#70abcf, white, #70abcf);
 }
-
 
 .pointbleu {
   width: 12px;
   height: 12px;
-  background-color: rgb(112, 171, 207);
+  background-color: #70abcf;
   border-radius: 50%;
   border: 1.5px solid white;
   z-index: 3;
-  position: absolute;
-  left: 0%;
-  top: 0;
-  transform: translate(-50%, -50%);
+  position: relative;
+  left: 50%;
+  top: auto;
+  transform: translate(-30%, -390%);
   }
   
   /* mise en page de la page 3*/
@@ -216,4 +208,15 @@ iframe{
   width: 100%;
   height: 400px;
 }
+
+
+
+
+
+.map{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150%;
+  height: auto;
 }
