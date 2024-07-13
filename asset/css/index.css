@@ -1,13 +1,35 @@
 /*Mise en page de la page 1*/
+* {
+  margin: 0;
+}
 
+header{
+  justify-content: space-between;
+  unicode-bidi: isolate;
+  align-items: center;
+  padding: 10px;
+  flex-direction: row;
+  display: flex;
+  z-index: 0;
+}
+div{
+  display: block;
+  unicode-bidi: isolate;
+}
 
-/* mise en page du logo*/
+/* mise en page du logo OK*/
 .logo{
   display: flex;
   padding: 1%;
 }
 
-/*Mise en page de la navbar*/
+nav{
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+/*Mise en page de la navbar OK*/
 .navbar{
   display: flex;
   position: absolute;
@@ -23,27 +45,49 @@
 
 .navbar li a{
   text-decoration: none;
-  color: #222020;
+  color: #353333;
   padding: 20px;
-  font-family: Roboto;
+  font-family: cursive;
 }
 
-/* mise en page de l'image*/
-.img{
-  display: flex; 
+body {
+  display: block;
+  margin: 8px;
+}
+
+#accueil{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: auto;
+}
+
+/* mise en page de l'image OK*/
+.imgfille {
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
 }
 
 /* mise en page du texte & bouton*/
 .accroche{
   position: absolute;
-  top: 300px;
-  left: 80px;
+  left: 40px;
   z-index: 6;
   color: white;
-  font-size: 1.2em;
-  font-family: Roboto;
+  font-family: cursive;
+
+}
+
+h1 {
+  margin-block-end: 0.83em;
 }
 
 span{
@@ -51,11 +95,12 @@ span{
 }
 
 .btn{
+  padding: 0 20px;
   background-color: #70abcf;
   border-color: #70abcf;
   border-radius: 5px;
   color: #fff;
-  height: 35px;
+  height: 30px;
 }
 
 .btn:hover{
@@ -79,7 +124,6 @@ span{
   width: 70px;
   height: 76px;
   border-radius: 50px;
-  top: 380px;
   left: -30px;
 }
 
@@ -98,60 +142,78 @@ span{
   width: 70px;
   height: 76px;
   border-radius: 50px;
-  top: 380px;
   right: -30px;
 }
 
 /*FIn de la page 1*/
 
 
-
-
-
 /*Mise en page de la page 2*/
-
-/*#services {
-display: inline;
-}*/
-
-h2 {
-  position: absolute;
-    font-family: Roboto;
-    font-size: 2em;
-    color: #70abcf;
+  
+  #services {
+  
+  }
+  
+  h2 {
+    text-align: center;
+    position: RELATIVE;
+    font-family: cursive;
+    font-size: 1.5em;
+    color: #050505;
+    margin-block-start: 0.83em;
+     
+  }
+  
+   /* hr {
    
+    left: 600px;
+    right: 600px;
+  }*/
+
+
+  .traitbleu {
+  width: 20%;
+    margin: auto;
+    margin-bottom: 5vh;
+    height: 2px;
+    background:  #70abcf;
 }
 
-  hr {
+
+.pointbleu {
+  width: 12px;
+  height: 12px;
+  background-color: rgb(112, 171, 207);
+  border-radius: 50%;
+  border: 1.5px solid white;
+  z-index: 3;
   position: absolute;
-  left: 600px;
-  right: 600px;
+  left: 0%;
+  top: 0;
+  transform: translate(-50%, -50%);
+  }
+  
+  /* mise en page de la page 3*/
+  
+  #projets {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+  
+  
+  /* mise en page de la page 4*/
+  
+  #contact {
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 100px;
+  }
+
+iframe{
+  width: 100%;
+  height: 400px;
 }
-
-.line { 
-  display: flex;
-  position: relative;
-  top: 100px;
-  left: 100px;
 }
-
-/* mise en page de la page 3*/
-
-#projets {
-  display: flex;
-  position: relative;
-  top: 100px;
-  left: 100px;
-}
-
-
-/* mise en page de la page 4*/
-
-#contact {
-  display: flex;
-  position: relative;
-  top: 100px;
-  left: 100px;
-}
-
-

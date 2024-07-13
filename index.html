@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <script src="https://kit.fontawesome.com/61c7fa05f4.js" crossorigin="anonymous"></script>
     <link href="fonts/stylesheet.css" rel="stylesheet">  
     <link rel="stylesheet" href="asset/css/index.css">
@@ -13,172 +14,176 @@
 
 <body>
 <!--Page Accueil-->
-    <div class="container">
+<div class="container">
 
 <!-- Header Entete de Page-->
-        <header>
-
-            <div class="logo"> 
-                <img src="asset/images/logo.png" alt="logo webagency"/>
-            </div>
-
+    <header>
+    
+        <div> 
+            <img class="logo" src="asset/images/logo.png" alt="logo webagency"/>
+        </div>
+    
             <nav>
                 <ul class="navbar">
-                    <li><a href="#page1">Accueil</a></li>
-                    <li><a href="#page2">Services</a></li>
-                    <li><a href="#page3">Portfoliot</a></li>
-                    <li><a href="#page4">Contact</a></li>
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projets">Portfoliot</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+    
+    </header>
 
-        </header>
-    </div>
-<!--Fin Header-->
-
-<main>
+    <main>
 
 <section id="accueil">
-
+                
 <!--carroussel-->
-               <img class="img" src="asset/slider/bg1.jpg" alt="slider"/>
-                
+            <img class="imgfille" src="asset/slider/bg1.jpg" alt="Image Fillette"/>
+                                
 <!--Flèches-->
-                <div class="arrow_left">       
-                    <i class="fa-solid fa-angle-left"></i>
-                </div>
-                
-                <div class="arrow_right">
-                    <i class="fa-solid fa-angle-right"></i>
-                </div>
-            
+        <div class="arrow_left">       
+                <i class="fa-solid fa-angle-left"></i>
+        </div>
+                                
+        <div class="arrow_right">
+                <i class="fa-solid fa-angle-right"></i>
+        </div>
+                            
 <!--texte supperposer-->  
-               <div class="accroche">           
-                    <h1>
-                        <span>WEBAGENCY</span>: L'AGENCE DE TOUS 
-                        <br>VOS PROJETS
-                    </h1>
+        <div class="accroche">           
+            <h1>
+                <span>WEBAGENCY</span>: L'AGENCE DE TOUS 
+                    <br>VOS PROJETS
+            </h1>
 <!--texte accroche-->      
-                      <p> 
-                            Vous avez un projet web? La WebAgency vous aide à la réaliser.
-                        </p>  
+        <p> 
+            Vous avez un projet web? La WebAgency vous aide à la réaliser.
+        </p>  
+                                
+<!--bouton--><br>
+            <button class="btn">plus d'infos</button>
+        </div>  
+                                
+<!--fin de la page accueil-->   
                 
-<!--bouton-->
-                  <button class="btn">plus d'infos</button>
-                </div>  
-                
-<!--fin de la page accueil1-->   
+</section>  
 
-</section>           
-<!-- Debut page Services-->     
-<div class="container">
-    
-<section id="services">
+<!-- page services-->
 
-  <div class="services">
-      <h2>NOS SERVICES</h2>
+<div id="services">
+
+    <div>
+        <h2>NOS SERVICES</h2>
     </div>
-</section>
-                <div class="line"></div>
+<br>
+    <div class="traitbleu"></div>
+    <div class="pointbleu"></div>
 
-                <hr>
+    
 
-                <div class="circle"></div>
+    <p> 
+        De taille humaine, notre agence vous accompagne du début à la fin de votre projet. 
+        Nos experts vous aident à optimiser l'experience utilisateur et tirer le meilleur potentiel de chaque support, du web au mobile.
+    </p>
+            <img class="ecran" src="asset/images/main-feature.png" alt="ecran"/>
 
+    <div class="services_icones">
+        <div class="icons">
+            <h3>
+                UX Disign
+            </h3>
+                <p>
+                    Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
+                </p>
+                    <i class="fas fa-chart-line fa-lg"></i>
+                    
+                    <br>
 
-
-
-
-
-                <i class="fa-regular fa-circle"></i>
-  
-      <div class="services_icones">
-          <div class="icons">
-            <i class="fas fa-chart-line fa-lg"></i>
-            <br>
-    <i class="fa-solid fa-cubes"></i>
-            <br>
-           
+            <h3>
+                 UI design 
+            </h3> 
+                <p>
+                    Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
+                </p>
+                    <i class="fa-solid fa-cubes"></i>
+                    <i class="fa-regular fa-circle"></i>
+                    <br>
+                    
+            <h3>
+                SEO
+            </h3>
+                <p>
+                    Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
+                </p>
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <i class="fa-solid fa-spinner-scale"></i>
+                    <i class="fa-regular fa-circle"></i>    
+               
+              </div>
           </div>
-      </div>
-
-      <i class="fa-solid fa-spinner-scale"></i>
-
-
+<!-- fin de la page service-->    
 </section>
-
-<!--fin de la page services-->
-
-
 
 <!-- Début page Projets-->
 <section id="projets">
-<figure>
-    <img class="01" src="asset/images/portfolio/01.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
+    <figure>
+        <img class="01" src="asset/images/portfolio/01.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img class="02" src="asset/images/portfolio/02.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img class="03" src="asset/images/portfolio/03.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img class="04" src="asset/images/portfolio/04.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img class="05" src="asset/images/portfolio/05.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
+    
+    <figure>
+        <img class="06" src="asset/images/portfolio/06.jpg" alt="projet1"/>
+        <figcaption>Projet 1</figcaption>
+    </figure>
 
-<figure>
-    <img class="02" src="asset/images/portfolio/02.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
-
-<figure>
-    <img class="03" src="asset/images/portfolio/03.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
-
-<figure>
-    <img class="04" src="asset/images/portfolio/04.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
-
-<figure>
-    <img class="05" src="asset/images/portfolio/05.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
-
-<figure>
-    <img class="06" src="asset/images/portfolio/06.jpg" alt="projet1"/>
-    <figcaption>Projet 1</figcaption>
-</figure>
-
-     
-   <i class="fa-sharp fa-thin fa-draw-circle"></i>
-      <br>
-
-      <p> De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
-           Nos experts vous aident à optimiser l'experience utilisateur et tirer le meilleur potentiel de chaque support du web au mobile</p>
-  <i class="fa-sharp fa-regular fa-eye"></i>
-  
-
-  <i class="fa-solid fa-spinner"></i>
 </section>
 <!--fin de la page projet-->
 
 
 <!-- Début page Contact-->
 <section id="contact">
+<h2>CONTACT</h2>
+     <div class="traitbleu"></div>
 
-     
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2920000000003!2d2.294481315674781!3d48.85837097928669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f06e2b70f%3A0x7e1f7e3f0b9b0b1!2sTour%20Eiffel!5e0!3m2!1sfr!2sfr!4v1615883660003!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+
+
    <i class="fa-sharp fa-thin fa-draw-circle"></i>
       <br>
-
-      <p> De taille humaine, notre agence vous accompagne du début à la fin de votre projet.
-           Nos experts vous aident à optimiser l'experience utilisateur et tirer le meilleur potentiel de chaque support du web au mobile</p>
   <i class="fa-sharp fa-regular fa-eye"></i>
-  
-
   <i class="fa-solid fa-spinner"></i>
-
-
 </section>
 <!--fin de la page contact-->
 </main>
 
       <footer>
-          <p>Footer</p>
+        
       </footer>
 
-
-</body>
+</body>      
 </html>
