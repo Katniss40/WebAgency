@@ -1,8 +1,18 @@
-/*Mise en page de la page 1*/
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family:cursive,'roboto', sans-serif;
 }
 
+.container{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*Mise en page de la page 1*/
 header{
   justify-content: space-between;
   unicode-bidi: isolate;
@@ -12,6 +22,7 @@ header{
   display: flex;
   z-index: 0;
 }
+
 div{
   display: block;
   unicode-bidi: isolate;
@@ -37,17 +48,14 @@ nav{
   right: 50px;
 }
 
-.navbar li{   
-    list-style-type: none;
+.navbar li{
     display: flex;
     position: relative;
 }
 
 .navbar li a{
-  text-decoration: none;
   color: #353333;
   padding: 20px;
-  font-family: cursive;
 }
 
 body {
@@ -82,8 +90,6 @@ body {
   left: 40px;
   z-index: 6;
   color: white;
-  font-family: cursive;
-
 }
 
 h1 {
@@ -155,18 +161,19 @@ span{
   }
   
   h2 {
+    text-transform: uppercase;
     text-align: center;
     position: RELATIVE;
-    font-family: cursive;
     font-size: 1.5em;
     color: #050505;
     margin-block-start: 0.83em;
      
   }
 
-  .traitbleu {
-  width: 20%;
-    margin: auto;
+.line {
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
     margin-bottom: 5vh;
     height: 2px;
     background: linear-gradient(#70abcf, white, #70abcf);
@@ -177,12 +184,9 @@ span{
   height: 12px;
   background-color: #70abcf;
   border-radius: 50%;
-  border: 1.5px solid white;
   z-index: 3;
   position: relative;
-  left: 50%;
-  top: auto;
-  transform: translate(-30%, -390%);
+  margin: 0 auto;
   }
   
   /* mise en page de la page 3*/
@@ -209,9 +213,67 @@ iframe{
   height: 400px;
 }
 
+.text_groupe{
+  display: flex;
+  flex-direction: column;
+}
 
+.services_icones{
+  display: flex;
+}
 
+.anim_text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #70abcf;
+}
 
+.incone_text{
+  display: flex;
+  border: 1px solid #70abcf;
+  height: 100px;
+}
+
+.icone{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icone_circle{
+  width: 30%;
+  height: 70px;
+  border: 2px solid;
+  border-radius: 50%;
+  position: relative;
+  animation: spin 5s linear infinite;
+}
+
+.cubes{
+  position: absolute;
+  top: 25px;
+  left: 22px;
+}
+
+.points{
+  display: flex;
+  top: 7px;
+  animation: spin 5s linear infinite;
+  transform: translateY(-50%, -50%);
+}
+
+@keyframes spin {
+  100% 
+  { transform: rotate(360deg); }
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
 
 .map{
   display: flex;
