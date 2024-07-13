@@ -74,7 +74,7 @@ body {
 /* mise en page de l'image OK*/
 .imgfille {
     display: flex;
-    width: 100%;
+    width: 300%;
     height: auto;
     position: relative;
     left: 0;
@@ -156,10 +156,7 @@ span{
 
 /*Mise en page de la page 2*/
   
-  #services {
-  
-  }
-  
+     
   h2 {
     text-transform: uppercase;
     text-align: center;
@@ -235,39 +232,47 @@ iframe{
   height: 100px;
 }
 
+.point i{
+  height: 70px;
+  width: 70px;
+  top: -35px;
+}
+
 .icone{
-  width: 30%;
+  height: 70px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .icone_circle{
-  width: 30%;
-  height: 70px;
+  width: 60px;
+  height: 60px;
   border: 2px solid;
   border-radius: 50%;
   position: relative;
   animation: spin 5s linear infinite;
+  
 }
 
 .cubes{
   position: absolute;
-  top: 25px;
-  left: 22px;
+  
 }
 
-.points{
-  display: flex;
-  top: 7px;
-  animation: spin 5s linear infinite;
-  transform: translateY(-50%, -50%);
+.cubes i{
+position: relative;
 }
+
+.cubes div{
+  position: relative;
+} 
 
 @keyframes spin {
   100% 
   { transform: rotate(360deg); }
-}
+} 
 
 .text{
   display: flex;
