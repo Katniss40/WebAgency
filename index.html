@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div id="container">
 <!--Page Accueil-->
 
 <!-- Header Entete de Page-->
@@ -22,7 +22,8 @@
         <div> 
             <img class="logo" src="asset/images/logo.png" alt="logo webagency"/>
         </div>
-    
+        
+        
             <nav>
                 <ul class="navbar">
                     <li><a href="#accueil">Accueil</a></li>
@@ -31,7 +32,8 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-    
+        
+
     </header>
 
     <main>
@@ -39,9 +41,11 @@
 <section id="accueil">
                 
 <!--carroussel-->
-            <img class="imgfille" src="asset/slider/bg1.jpg" alt="Image Fillette"/>
+        <div class="img_fille">
+            <img src="asset/slider/bg1.jpg" alt="Image Fillette"/>
                                 
 <!--Flèches-->
+
         <div class="arrow_left">       
                 <i class="fa-solid fa-angle-left"></i>
         </div>
@@ -51,17 +55,19 @@
         </div>
                             
 <!--texte supperposer-->  
+
         <div class="accroche">           
             <h1>
                 <span>WEBAGENCY</span>: L'AGENCE DE TOUS 
                     <br>VOS PROJETS
             </h1>
 <!--texte accroche-->      
-        <p> 
-            Vous avez un projet web? La WebAgency vous aide à la réaliser.
-        </p>  
+            <p> 
+                Vous avez un projet web? La WebAgency vous aide à la réaliser.
+            </p>  
                                 
-<!--bouton--><br>
+            <br>
+<!--bouton-->
             <button class="btn">plus d'infos</button>
         </div>  
                                 
@@ -80,13 +86,15 @@
     <div class="line"></div>
     <div class="pointbleu"></div>
 
-    <p> 
+    <p class="nos_services"> 
         De taille humaine, notre agence vous accompagne du début à la fin de votre projet. 
         Nos experts vous aident à optimiser l'experience utilisateur et tirer le meilleur potentiel de chaque support, du web au mobile.
     </p>
     
+<div class>
+
     <div class="services_icones">
-            <div class="img_services">
+            <div class="pc">
                 <img class="ecran" src="asset/images/main-feature.png" alt="ecran"/>
             </div>
     
@@ -103,60 +111,80 @@
 
                         
                     </div>
+
                     <div class="cubes">
                             <div> <i class="fas fa-chart-line fa-lg"></i></div>                           
-                        </div>
+                    </div>
                 </div>
 
                 <div class="text">
                     <h3>
-                        UX Disign
+                        UX Design
                     </h3>
                     <p>
                     Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
                     </p>
                 </div>
 
-                    
-                    <br>
             </div>
 
             <div class="incone_text">
 
                 <div class="icone">
+                    
+                    <div class="icone_circle">
+                        <div class="point">
+                            <i class="fa-solid fa-circle"></i>
+                        </div>
 
-                    <i class="fa-solid fa-circle"></i>
-                    <i class="fa-solid fa-cubes"></i>
-                </div>
+                        
+                    </div>
+                    <div class="cubes">
+                            <div> <i class="fa-solid fa-cubes"></i></div>                           
+                    </div>
+                </div>   
 
                 <div class="text">
+                    
                     <h3>
                          UI design 
                     </h3> 
                     <p>
-                        Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
+                        Une interface optimisée qui permet à votre site web de rester à la page au grés des évolutions et des nouveaux usages.
                     </p>
                  </div>   
-                    <br>
+                   
             </div> 
 
-            <div class="incone_text">   
+            <div class="incone_text">
 
                 <div class="icone">
-                    <i class="fa-solid fa-circle"></i>
-                    <i class="fa-solid fa-chart-pie"></i>
-                </div>
+                    
+                    <div class="icone_circle">
+                        <div class="point">
+                            <i class="fa-solid fa-circle"></i>
+                        </div>
+
+                        
+                    </div>
+                    <div class="cubes">
+                            <div> <i class="fa-solid fa-chart-pie"></i></div>                           
+                    </div>
+                </div>   
 
                 <div class="text">
+                    
                     <h3>
-                        SEO
-                    </h3>
+                          SEO
+                    </h3> 
                     <p>
-                        Une equipe passionnée qui place l'utilisateur final au centre de sa démarche pour une technologie plus humaine
+                       Nos experts en référencement vous permettent d'améliorer le positionnement de votre site afin d'augmenter votre conversion.
                     </p>
-                </div>  
-
-            </div>
+                 </div>   
+                    
+            
+             
+            </div>  
 
         </div>
     </div>
@@ -166,41 +194,47 @@
 
 <!-- Début page Projets-->
 <section id="projets">
-    <h2>nos projets</h2>
-    <br>
-    <div class="traitbleu"></div>
+
+    <div>
+        <h2>nos projets</h2>
+    </div>
+<br>
+    <div class="line"></div>
     <div class="pointbleu"></div>
 
+    <div class="figure">
 
-    <figure>
-        <img class="01" src="asset/images/portfolio/01.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="01" src="asset/images/portfolio/01.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
     
-    <figure>
-        <img class="02" src="asset/images/portfolio/02.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="02" src="asset/images/portfolio/02.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
     
-    <figure>
-        <img class="03" src="asset/images/portfolio/03.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="03" src="asset/images/portfolio/03.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
     
-    <figure>
-        <img class="04" src="asset/images/portfolio/04.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="04" src="asset/images/portfolio/04.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
     
-    <figure>
-        <img class="05" src="asset/images/portfolio/05.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="05" src="asset/images/portfolio/05.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
     
-    <figure>
-        <img class="06" src="asset/images/portfolio/06.jpg" alt="projet1"/>
-        <figcaption>Projet 1</figcaption>
-    </figure>
+        <figure>
+            <img class="06" src="asset/images/portfolio/06.jpg" alt="projet1"/>
+            <figcaption>Projet 1</figcaption>
+        </figure>
+
+    </div>
 
 </section>
 <!--fin de la page projet-->
